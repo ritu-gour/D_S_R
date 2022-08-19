@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+   *{
+       padding: 0;
+       margin: 0;
+   }
+
+.parallax {
+  /* The image used */
+  background-image: url("p1.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+  
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header" style="float: left; margin-left: 30px;">
+      <a class="navbar-brand" href="#"><b style="font-weight: bolder; font: larger;font-size: 30px;">MarkCom</b></a>
+
+    </div>
+    
+    <ul class="nav navbar-nav" style="float: right;">
+      <li class="active"><a href="Home.html">Home</a></li>
+      <li><a href="Aboutus.html">Aboutus</a></li>
+      <li><a href="Screenshots.html">ScreenShots</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="parallax">
+    <button></button>
+</div>
+
+<div style="height:1000px;background-color:#98f6df;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+</body>
+</html>
